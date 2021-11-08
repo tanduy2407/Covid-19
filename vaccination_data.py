@@ -22,7 +22,8 @@ def get_vaccine_data():
 		final_df['date'] = pd.to_datetime(df['date'])
 		final_df = final_df.replace({np.NAN: None})
 		final_df['run_date'] = date.today().strftime('%Y-%m-%d')
-		print(final_df[final_df['country']=='Vietnam'])
+		# print(final_df[final_df['country']=='Zimbabwe'])
+		print(len(final_df))
 	except Exception as err:
 		print(err)
 
