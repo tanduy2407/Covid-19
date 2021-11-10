@@ -19,11 +19,9 @@ def get_vaccine_data():
 		use_cols = ['country', 'date', 'total_vaccinations', 'people_vaccinated',
 					'people_fully_vaccinated', 'daily_vaccinations', 'vaccines']
 		final_df = df[use_cols]
-		final_df['date'] = pd.to_datetime(df['date'])
 		final_df = final_df.replace({np.NAN: None})
 		final_df['run_date'] = date.today().strftime('%Y-%m-%d')
-		# print(final_df[final_df['country']=='Zimbabwe'])
-		print(len(final_df))
+		print('Download vaccine files successfully')
 	except Exception as err:
 		print(err)
 
