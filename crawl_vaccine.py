@@ -6,7 +6,8 @@ from datetime import date
 from connect_mysql import query
 
 
-WORKING_PATH = os.path.dirname(os.path.realpath(__file__))
+WORKING_PATH = os.getcwd()
+print(WORKING_PATH)
 
 
 def get_vaccine_data():
@@ -53,4 +54,4 @@ def get_full_vaccines():
 	# final_df_vaccine.to_csv(rf'{WORKING_PATH}\data\full_vaccinations.csv', index=False)
 
 # get_vaccine_data()
-get_full_vaccines()
+# get_full_vaccines()
