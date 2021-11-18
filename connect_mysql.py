@@ -96,7 +96,7 @@ def create_vaccine_table():
 
 def create_detail_table():
 	try:
-		sql = """CREATE TABLE covid_data.DETAIL_DATA(
+		sql = """CREATE TABLE covid_data.DETAIL_COVID_DATA(
 				COUNTRY VARCHAR(100),
 				DATE DATE,
 				TOTAL_CONFIRMED BIGINT,
