@@ -4,7 +4,7 @@ vaccines
 "Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V"
 "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 Oxford/AstraZeneca
-Oxford/AstraZeneca
+"Oxford/AstraZeneca, Pfizer/BioNTech"
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
 "CanSino, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
 "Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V"
@@ -111,14 +111,14 @@ Pfizer/BioNTech
 "Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V"
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
-Oxford/AstraZeneca
+"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing"
 Oxford/AstraZeneca
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V"
 "Moderna, Pfizer/BioNTech"
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 "Pfizer/BioNTech, Sinopharm/Beijing"
-Oxford/AstraZeneca
+"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing"
 "Johnson&Johnson, Oxford/AstraZeneca"
 "CanSino, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac"
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing"

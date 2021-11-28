@@ -71,7 +71,7 @@ def create_summary_table():
 	except Exception as err:
 		print(err)
 
-# create_summary_table()
+
 def create_vaccine_table():
 	try:
 		sql = """CREATE TABLE covid_data.VACCINE_COVID_DATA
@@ -92,7 +92,6 @@ def create_vaccine_table():
 	except Exception as err:
 		print(err)
 
-# create_vaccine_table()
 
 def create_detail_table():
 	try:
@@ -107,4 +106,7 @@ def create_detail_table():
 	except Exception as err:
 		print(err)
 
+
+# create_summary_table()
 # create_detail_table()
+# create_vaccine_table()
