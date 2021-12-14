@@ -106,9 +106,9 @@ Sputnik V
 "Oxford/AstraZeneca, Sputnik V"
 Oxford/AstraZeneca
 "Oxford/AstraZeneca, Pfizer/BioNTech"
-Pfizer/BioNTech
+"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing"
 "Sinopharm/Beijing, Sputnik V"
-"Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V"
+"Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V"
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
 "Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing"
@@ -137,10 +137,10 @@ Oxford/AstraZeneca
 "Oxford/AstraZeneca, Sinopharm/Beijing"
 "Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing"
 Oxford/AstraZeneca
-"Covaxin, Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V"
+"Covaxin, Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
 "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 Pfizer/BioNTech
-Pfizer/BioNTech
+"Oxford/AstraZeneca, Pfizer/BioNTech"
 "Abdala, Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Soberana02, Sputnik Light, Sputnik V"
 "Oxford/AstraZeneca, Sinopharm/Beijing"
 Oxford/AstraZeneca
@@ -173,7 +173,7 @@ Oxford/AstraZeneca
 Oxford/AstraZeneca
 "Oxford/AstraZeneca, Pfizer/BioNTech"
 "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-"Oxford/AstraZeneca, Sinopharm/Beijing"
+"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing"
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
 "Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V"
 "Oxford/AstraZeneca, Sinopharm/Beijing"
@@ -215,7 +215,7 @@ Oxford/AstraZeneca
 "Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac"
 "Moderna, Oxford/AstraZeneca, Sputnik V, ZF2001"
 Oxford/AstraZeneca
-"Abdala, Sinopharm/Beijing, Sinopharm/Wuhan, Sputnik V"
+"Abdala, Sinopharm/Beijing, Sinovac, Sputnik V"
 "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V"
 "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 Moderna
