@@ -39,6 +39,7 @@ def get_summary_data():
 			info = (rank, name, continent, infection_risk, serious_critical, fatality_rate, active_cases, total_cases,
 					new_cases, total_deaths, new_deaths, total_recovered, recovery_proporation, total_tests, test_percentage, population, run_date)
 			sum_data.append(info)
+	print('Crawl summary data successfully!')
 	return sum_data
 
 
