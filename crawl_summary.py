@@ -40,6 +40,7 @@ def get_summary_data():
 					new_cases, total_deaths, new_deaths, total_recovered, recovery_proporation, total_tests, test_percentage, population, run_date)
 			sum_data.append(info)
 	print('Crawl summary data successfully')
+	print('make change')
 	return sum_data
 
 
