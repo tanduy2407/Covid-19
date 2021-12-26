@@ -12,5 +12,5 @@ from datetime import datetime, timedelta
 # #     print((a[i+1]-timedelta(days=1)).strftime('%m/%d/%Y'))
 # #     print('-------------------')
 
-filter_datetime = (datetime.today()-timedelta(days=28)).strftime('%Y-%m-%d 00:00:00')
+filter_datetime = (datetime.today()-timedelta(days=15)).strftime('%Y-%m-%d 00:00:00')
 print(filter_datetime)
