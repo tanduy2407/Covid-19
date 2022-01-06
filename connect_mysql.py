@@ -105,8 +105,3 @@ def create_detail_table():
 		print('Create table success')
 	except Exception as err:
 		print(err)
-
-
-# create_summary_table()
-# create_detail_table()
-# create_vaccine_table()
