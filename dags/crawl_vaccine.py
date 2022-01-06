@@ -62,6 +62,3 @@ def get_full_vaccines():
 	query(keyw='Insert', table_name='VACCINE_COVID_DATA', num_cols=12, data_arr=vaccine_data)
 	final_df_vaccine.to_csv(rf'{WORKING_PATH}\data\full_vaccinations.csv', index=False)
 
-
-get_vaccine_data()
-get_full_vaccines()
