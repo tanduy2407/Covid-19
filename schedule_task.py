@@ -1,5 +1,5 @@
 from crawl_summary import get_summary_data
-from dags.crawl_vaccine import get_full_vaccines, get_vaccine_data
+from dags.crawl_vaccine_airflow import get_full_vaccines, get_vaccine_data
 from connect_mysql import query
 
 def main():

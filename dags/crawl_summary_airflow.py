@@ -4,7 +4,7 @@ from connect_postgres import *
 from datetime import timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-
+from crawl_vaccine_airflow import get_full_vaccines, get_vaccine_data
 
 # use rapid api to get info for all countries
 def get_summary_data():
@@ -39,16 +39,17 @@ def get_summary_data():
 					new_cases, total_deaths, new_deaths, total_recovered, recovery_proporation, total_tests, test_percentage, population, run_date)
 			sum_data.append(info)
 	print('Crawl summary data successfully')
-	return sum_data
+	query(keyw='Truncate', table_name='SUMMARY_COVID_DATA')
+	query(keyw='Insert', table_name='SUMMARY_COVID_DATA', num_cols=17, data_arr=sum_data)
 
 
 def main(**kwargs):
-	summary_data = get_summary_data()
-	print(summary_data)
 	create_schema()
 	create_summary_table()
-	query(keyw='Truncate', table_name='SUMMARY_COVID_DATA')
-	query(keyw='Insert', table_name='SUMMARY_COVID_DATA', num_cols=17, data_arr=summary_data)
+	get_summary_data()
+	create_vaccine_table()
+	get_vaccine_data()
+	get_full_vaccines()
 
 
 dag = DAG(
