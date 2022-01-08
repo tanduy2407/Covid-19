@@ -53,7 +53,7 @@ def main(**kwargs):
 
 
 dag = DAG(
-		dag_id="update_summary_data",
+		dag_id="update_covid_data",
 		schedule_interval="@daily",
 		default_args={
 			"owner": "airflow",
@@ -64,7 +64,7 @@ dag = DAG(
 		catchup=False,
 )
 first_function_execute = PythonOperator(
-		task_id="update_summary",
+		task_id="update_data",
 		python_callable=main,
 		provide_context=True, dag=dag
 	)
