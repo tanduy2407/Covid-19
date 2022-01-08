@@ -65,7 +65,7 @@ def create_summary_table():
 					POPULATION INT, 
 					RUN_DATE DATE)"""
 		cursor.execute(sql)
-		print('Create table success')
+		print('Create table SUMMARY_COVID_DATA success')
 	except Exception as err:
 		print(err)
 
@@ -86,7 +86,7 @@ def create_vaccine_table():
 					DAILY_VACCINATIONS_PER_MILLION FLOAT,
 					VACCINES VARCHAR(300))"""
 		cursor.execute(sql)
-		print('Create table success')
+		print('Create table VACCINE_COVID_DATA success ')
 	except Exception as err:
 		print(err)
 
@@ -100,7 +100,7 @@ def create_detail_table():
 				TOTAL_DEATHS BIGINT,
 				MORTALITY_RATE FLOAT)"""
 		cursor.execute(sql)
-		print('Create table success')
+		print('Create table DETAIL_COVID_DATA success ')
 	except Exception as err:
 		print(err)
 
@@ -109,11 +109,6 @@ def create_schema():
 	try:
 		sql = f"CREATE SCHEMA IF NOT EXISTS {schema}"
 		cursor.execute(sql)
-		print('Create schema success')
+		print('Create schema success!!!')
 	except Exception as err:
 		print(err)
-		
-
-# create_summary_table()
-# create_detail_table()
-# create_vaccine_table()

@@ -9,6 +9,8 @@ services:
             - POSTGRES_DB=airflow
         volumes:
             - /tmp/postgres-data:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
 
     webserver:
         build: .
