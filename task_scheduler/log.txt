@@ -1,0 +1,11 @@
+Update daily data 
+Beginning time =  0:04:30.32 Mon 01/10/2022 
+Connect Database successfully
+Crawl summary data successfully
+Truncate table SUMMARY_COVID_DATA
+Insert data 218 rows to SUMMARY_COVID_DATA
+Download files successfully
+Truncate table VACCINE_COVID_DATA
+Insert data 68943 rows to VACCINE_COVID_DATA
+Ending time =  0:04:44.93 Mon 01/10/2022 
+ 

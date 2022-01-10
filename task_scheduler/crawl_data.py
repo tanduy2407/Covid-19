@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 
-WORKING_PATH = os.getcwd()
+WORKING_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 
 # use rapid api to get info for all countries
