@@ -20,3 +20,16 @@ Truncate table VACCINE_COVID_DATA
 Insert data 69898 rows to VACCINE_COVID_DATA
 Ending time =  0:00:18.93 Thu 01/13/2022 
  
+Update daily data 
+Beginning time =  0:00:01.90 Fri 01/14/2022 
+Connect Database successfully
+Crawl summary data successfully
+Truncate table SUMMARY_COVID_DATA
+Insert data 218 rows to SUMMARY_COVID_DATA
+Download files successfully
+Truncate table VACCINE_COVID_DATA
+Insert data 70143 rows to VACCINE_COVID_DATA
+Ending time =  0:00:19.74 Fri 01/14/2022 
+ 
+Update daily data 
+Beginning time =  0:00:01.93 Sat 01/15/2022 
