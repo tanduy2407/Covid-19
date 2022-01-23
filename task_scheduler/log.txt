@@ -33,3 +33,25 @@ Ending time =  0:00:19.74 Fri 01/14/2022
  
 Update daily data 
 Beginning time =  0:00:01.93 Sat 01/15/2022 
+Update daily data 
+Beginning time = 23:48:36.37 Tue 01/18/2022 
+Connect Database successfully
+Crawl summary data successfully
+Truncate table SUMMARY_COVID_DATA
+Insert data 218 rows to SUMMARY_COVID_DATA
+Download files successfully
+Truncate table VACCINE_COVID_DATA
+Insert data 71009 rows to VACCINE_COVID_DATA
+Ending time = 23:49:00.98 Tue 01/18/2022 
+ 
+Update daily data 
+Beginning time =  0:00:01.96 Wed 01/19/2022 
+Connect Database successfully
+Crawl summary data successfully
+Truncate table SUMMARY_COVID_DATA
+Insert data 218 rows to SUMMARY_COVID_DATA
+Download files successfully
+Truncate table VACCINE_COVID_DATA
+Insert data 71009 rows to VACCINE_COVID_DATA
+Ending time =  0:00:29.12 Wed 01/19/2022 
+ 
