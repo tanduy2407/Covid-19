@@ -45,10 +45,10 @@ def get_summary_data():
 				info = (rank, name, continent, infection_risk, serious_critical, fatality_rate, active_cases, total_cases,
 						new_cases, total_deaths, new_deaths, total_recovered, recovery_proporation, total_tests, test_percentage, population, run_date)
 				sum_data.append(info)
-			print('Crawl summary data successfully')
 		except Exception as err:
 			print('Error:', err)
 			break
+	print('Crawl summary data successfully')
 	query(keyw='Truncate', table_name='SUMMARY_COVID_DATA')
 	query(keyw='Insert', table_name='SUMMARY_COVID_DATA', num_cols=17, data_arr=sum_data)
 
