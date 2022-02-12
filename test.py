@@ -1,16 +1,35 @@
 from datetime import datetime, timedelta
-# last_90_days = (date.today()-timedelta(days=90)).strftime('%m/%d/%Y')
-# print(last_90_days)
+import os
 
-# # import pandas as pd
-
-# # a = pd.date_range('10/10/2021' ,'11/9/2021', freq='10D')
-
-# # for i in range(len(a)-1):
-
-# #     print(a[i].strftime('%m/%d/%Y'))
-# #     print((a[i+1]-timedelta(days=1)).strftime('%m/%d/%Y'))
-# #     print('-------------------')
-
-filter_datetime = (datetime.today()-timedelta(days=28)).strftime('%Y-%m-%d 00:00:00')
+filter_datetime = (datetime.today()-timedelta(days=50)).strftime('%Y-%m-%d 00:00:00')
 print(filter_datetime)
+
+# class Apple:
+# 	manufacturer = 'Apple Inc.'
+# 	contactWebsite = 'www.apple.com'
+# 	def __init__(self, yearofManufacture, material):
+# 		self.yearofManufacture = yearofManufacture
+# 		self.material = material		
+
+# 	def contactDetails(self):
+# 		print(f'Contact on {self.contactWebsite}')
+
+# class Macbook(Apple):
+# 	def __init__(self, yearofManufacture, material, size, price):
+# 		super().__init__(yearofManufacture, material)
+# 		self.price = price
+# 		self.size = size
+
+# 	def manufactureDetail(self):
+# 		print(f'Macbook is manufactured in {self.yearofManufacture} of {self.manufacturer}')
+# 		print(self.size)
+# 		print(self.price)
+
+# 	def contactDetails(self):
+# 		print(f'Please contact on {self.contactWebsite}')
+
+# apple = Apple('2010', 'steel')
+# apple.contactDetails()
+# macbook = Macbook('2017', 'wood', '16/9', 500)
+# macbook.manufactureDetail()
+# macbook.contactDetails()
